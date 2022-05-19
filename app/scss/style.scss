@@ -21,13 +21,13 @@
   }
   &__list-link{
     color: $title;
-    padding-bottom: 1px;
+    padding: 0 2px 1px;
     transition: all .3s;
     @extend %roboto-400;
     &:hover{
       color: $accent;
       border-bottom: 1px solid $accent;
-      @extend %roboto-400;
+      @extend %roboto-700;
     }
   }
   &__list-link--active{
@@ -110,8 +110,8 @@ footer{
   }
   &__title{
     color: $title;
-    @extend %roboto-400;
-    margin-bottom: 42px;
+    @extend %roboto-500;
+    margin-bottom: 41px;
     font-size: 22px;
     line-height: 1;
   }
@@ -139,9 +139,9 @@ footer{
     background-color: $accent;
     color: #fff;
     text-transform: uppercase;
+    @extend %roboto-400;
     padding: 12px 24px;
     margin-left: 5px;
-    @extend %roboto-400;
     box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
     cursor: pointer;
   }
